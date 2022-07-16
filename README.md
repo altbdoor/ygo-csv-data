@@ -7,16 +7,15 @@ To a friend! 🤝
 ## Setup
 
 1. Have NodeJS installed
-    - I used Node 16, but fairly sure it works with slightly older versions
+   - I used Node 16, but fairly sure it works with slightly older versions
 1. Install the dependencies with `npm install`
 1. Build the script with `npm run build`, which will create `./dist/main.js`
 1. Download the JSON response from YGOPRODeck API for all cards
-    - Please visit <https://db.ygoprodeck.com/api-guide/> for more info
-    - <https://db.ygoprodeck.com/api/v7/cardinfo.php?misc=yes>
+   - Please visit <https://db.ygoprodeck.com/api-guide/> for more info
+   - <https://db.ygoprodeck.com/api/v7/cardinfo.php?misc=yes>
 1. Run the script, against the JSON file
-    - `node ./dist/main.js ./cardinfo.php.json`
+   - `node ./dist/main.js ./cardinfo.php.json`
 1. Get `output.csv`, and have fun
-
 
 ## Notes
 
