@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "private": "true",
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "tsc --build",
+    "make-types": "make_types -i src/model.d.ts cardinfo.php.json YGOData",
+    "pretty": "prettier --ignore-path .gitignore --write ./**/*.{json,ts,md}"
+  },
+  "dependencies": {
+    "@types/node": "^18.0.4",
+    "csv-writer": "^1.6.0",
+    "maketypes": "^1.1.2",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}
