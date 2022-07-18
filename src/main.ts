@@ -26,7 +26,7 @@ const cardsRemapped = cards.map((card) => {
     id: card.id,
     name: card.name,
     type: card.type,
-    raw_desc: card.desc,
+    archetype: card.archetype || null,
     desc: card.desc.replace(pendulumRegex, "").trim(),
     race: card.race,
     attribute: card.attribute || null,

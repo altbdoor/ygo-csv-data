@@ -20,4 +20,5 @@ To a friend! 🤝
 ## Notes
 
 - The TypeScript interfaces were generated from the JSON file, with <https://github.com/jvilk/MakeTypes>
+   - `npm run make-types` can be used to regenerate the `./src/model.d.ts`
 - The data extracted here is specific to the needs of a friend. Feel free to hack the `./src/main.ts`!
